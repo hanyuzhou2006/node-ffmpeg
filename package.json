@@ -1,5 +1,5 @@
 {
-	"name": "ffmpeg",
+	"name": "@sansitech/ffmpeg",
 	"description": "Utility for managing video streams using ffmpeg",
 	"version": "0.0.5",
 	"author": {
