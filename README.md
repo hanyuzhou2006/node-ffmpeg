@@ -5,7 +5,7 @@ node-ffmpeg
 
 You can install this module using [npm](http://github.com/isaacs/npm):
 
-	npm install ffmpeg
+	npm install @sansitech/ffmpeg
 
 ## Usage
 
