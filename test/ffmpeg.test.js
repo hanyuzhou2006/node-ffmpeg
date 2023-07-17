@@ -18,4 +18,12 @@ describe('ffmpeg', function () {
         assert.deepEqual(video.metadata.video.pix_fmt, 'yuv420p');
       })
   })
+  describe('bitrate', function () {
+    it('bitrate', async function () {
+      const video = await new ffmpeg(path.resolve(__dirname, 'a.mp4'));
+      assert.deepEqual(video.metadata.bitrate, 979);
+      assert.deepEqual(video.metadata.video.bitrate, 830);
+      assert.deepEqual(video.metadata.audio.bitrate, 122);
+    })
+  })
 });
