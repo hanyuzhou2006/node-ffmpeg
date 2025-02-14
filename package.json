@@ -1,7 +1,7 @@
 {
 	"name": "@sansitech/ffmpeg",
 	"description": "Utility for managing video streams using ffmpeg",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"author": {
 		"name": "hanyuzhou2006",
 		"email": "hanyuzhou2006@163.com"
